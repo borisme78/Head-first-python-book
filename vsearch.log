@@ -1,0 +1,16 @@
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'i', 'e'}
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'a', 'u', 'i', 'e'}
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'a', 'u'}
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'a'}
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'a'}
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'ф'}
+<Request 'http://127.0.0.1:5000/search4' [POST]> set()
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'i', 'e'}
+<Request 'http://127.0.0.1:5000/search4' [POST]> set()
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'q'}
+POST | awe | a | {'a'}
+ImmutableMultiDict([('phrase', 'sadasdas'), ('letters', 'as')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15|{'a', 's'}
+ImmutableMultiDict([('phrase', 'hgfjghkhj'), ('letters', 'jh')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15|{'j', 'h'}
+ImmutableMultiDict([('phrase', 'l;plolytt'), ('letters', 'p')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15|{'p'}
+ImmutableMultiDict([('phrase', 'bnvnb'), ('letters', 'vvb')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15|{'v', 'b'}
+ImmutableMultiDict([('phrase', 'asd'), ('letters', 's')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15|{'s'}
