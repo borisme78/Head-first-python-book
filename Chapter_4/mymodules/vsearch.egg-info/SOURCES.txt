@@ -1,6 +1,7 @@
 README.txt
 setup.py
-vsearch.py
+vsearch/__init__.py
+vsearch/vsearch.py
 vsearch.egg-info/PKG-INFO
 vsearch.egg-info/SOURCES.txt
 vsearch.egg-info/dependency_links.txt
