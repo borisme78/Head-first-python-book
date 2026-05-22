@@ -12,7 +12,6 @@ app = Flask(__name__)
 
 import mysql.connector
 
-import mysql.connector
 
 
 def log_request(req: 'flask_request', res: str) -> None:

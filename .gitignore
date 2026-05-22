@@ -1,6 +1,6 @@
 # macOS
 .DS_Store
-
+.venv/
 # Python
 __pycache__/
 *.pyc
